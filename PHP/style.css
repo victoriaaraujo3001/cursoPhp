@@ -1,0 +1,27 @@
+body{
+    background: radial-gradient(circle, #cdf1f1 0%, #dddddd 80%, #ffffff 100%);
+    text-align: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+.contato{
+    width: 100%;
+    max-width: 500px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.field{
+    padding: 10px;
+    margin-bottom:15px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+textarea{
+    height: 150px;
+}
